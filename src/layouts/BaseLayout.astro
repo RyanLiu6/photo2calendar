@@ -1,0 +1,48 @@
+---
+interface Props {
+  title?: string;
+}
+
+import { ViewTransitions } from "astro:transitions";
+
+import Header from "@/components/Header.tsx";
+import Footer from "@/components/Footer.tsx";
+import { bodyBorder, mainBorder } from "@ryanliu6/xi/styles";
+
+const { title = "Photo2Calendar - Convert Schedule Photos to Calendar Events" } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Convert your work schedule photos into calendar events instantly" />
+    <ViewTransitions />
+    <title>{title}</title>
+    <script is:inline>
+			const THEME_KEY = "theme";
+			const THEME_DARK = "dark";
+
+			if (typeof localStorage !== "undefined") {
+				const storedTheme = localStorage.getItem(THEME_KEY) || THEME_DARK
+				if (storedTheme == THEME_DARK) {
+					document.documentElement.classList.add(THEME_DARK);
+				} else {
+					document.documentElement.classList.remove(THEME_DARK);
+				}
+			}
+		</script>
+  </head>
+	<body class={bodyBorder}>
+		<Header client:load />
+		<main class={mainBorder}>
+			<div class="flex flex-col flex-1 max-w-screen-md w-full">
+				<slot />
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

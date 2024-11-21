@@ -1,2 +1,9 @@
 # Photo2Calendar
-Turns photos of work schedules into .ics files to be imported using Google Calendar or other Calendar apps.
+A web application that converts work schedule photos into calendar events using OCR technology.
+
+## Features
+- Upload work schedule photos
+- Extract schedule information using OCR
+- Generate downloadable ICS files
+- Temporary storage (1 hour) for schedules
+- Support for various schedule formats
