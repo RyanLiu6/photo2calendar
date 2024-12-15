@@ -60,22 +60,26 @@ export function processScheduleText(text: string): ScheduleEntry[] {
   const year = new Date().getFullYear();
   const monthNum = new Date(`${month} 1, ${year}`).getMonth() + 1;
 
-  // Find the line with day numbers
-  const dayLine = lines.find(line =>
+  // Find all lines with day numbers
+  const dayLines = lines.filter(line =>
     line.match(/\d{1,2}[-]?(Nov|Dec|Jan)/g)
   );
 
-  if (!dayLine) {
+  if (dayLines.length === 0) {
     throw new Error("Could not find days in schedule");
   }
 
-  // Extract days
-  const dayMatches = dayLine.match(/\d{1,2}/g);
-  if (!dayMatches) {
-    throw new Error("Could not extract days from schedule");
-  }
+  // Extract all days from all matching lines
+  const allDays = new Set<number>();
+  dayLines.forEach(line => {
+    const matches = line.match(/\d{1,2}/g);
+    if (matches) {
+      matches.map(Number).forEach(day => allDays.add(day));
+    }
+  });
 
-  const days = dayMatches.map(Number);
+  // Convert to sorted array
+  const days = Array.from(allDays).sort((a, b) => a - b);
   console.log("Found days:", days);
 
   // Generate dates
