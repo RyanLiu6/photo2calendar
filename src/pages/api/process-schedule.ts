@@ -66,9 +66,7 @@ export const POST: APIRoute = async ({ request }) => {
       body: ocrFormData
     });
 
-    console.log("OCR API Response Status:", ocrResponse.status);
     const ocrData = await ocrResponse.json();
-    console.log("OCR API Response:", JSON.stringify(ocrData, null, 2));
 
     if (!ocrData.ParsedResults?.[0]?.ParsedText) {
       if (ocrData.ErrorMessage) {
