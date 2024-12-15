@@ -3,7 +3,6 @@ import ScheduleLayout from "@/layouts/ScheduleLayout.astro";
 import ScheduleDisplay from "@/components/ScheduleDisplay";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import { scheduleStore } from "@/utils/store";
-import { downloadSchedule } from "@/utils/downloadSchedule";
 
 const { scheduleId } = Astro.params;
 
@@ -24,9 +23,8 @@ if (!schedule) {
     <ScheduleDisplay
       client:load
       scheduleData={schedule.data}
-      onDownloadICS={async (name: string | null) => {
-        await downloadSchedule(scheduleId, name);
-      }}
+      scheduleId={scheduleId}
+      expiryTime={schedule.expiry}
     />
   </ErrorBoundary>
 </ScheduleLayout>

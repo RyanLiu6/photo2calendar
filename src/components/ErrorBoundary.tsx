@@ -1,34 +1,35 @@
-import React from 'react';
-import { Button } from '@/components/Button';
+import { Component, type ReactNode } from 'react';
 
 interface Props {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 interface State {
   hasError: boolean;
-  error?: Error;
+  error: Error | null;
 }
 
-class ErrorBoundary extends React.Component<Props, State> {
+class ErrorBoundary extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
-    this.state = { hasError: false };
+    this.state = { hasError: false, error: null };
   }
 
-  static getDerivedStateFromError(error: Error) {
+  static getDerivedStateFromError(error: Error): State {
     return { hasError: true, error };
   }
 
   render() {
     if (this.state.hasError) {
       return (
-        <div className="text-center p-4">
-          <h2 className="text-xl font-bold mb-4">Something went wrong</h2>
-          <p className="mb-4">{this.state.error?.message}</p>
-          <Button onClick={() => window.location.reload()}>
-            Retry
-          </Button>
+        <div className="text-red-500 p-4">
+          <h2>Something went wrong.</h2>
+          <details className="mt-2">
+            <summary>Error details</summary>
+            <pre className="mt-2 text-sm">
+              {this.state.error?.message}
+            </pre>
+          </details>
         </div>
       );
     }

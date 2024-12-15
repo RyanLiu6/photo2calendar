@@ -67,29 +67,19 @@ export const GET: APIRoute = async ({ params, request }) => {
 };
 
 function parseShiftTimes(shift: string): [Date, Date] {
-  // Example shift format: "9:00 AM - 5:00 PM"
+  // Our shift format is now "HH:MM-HH:MM" (24-hour format)
   const [startStr, endStr] = shift.split("-").map(s => s.trim());
 
   const startDate = new Date();
   const endDate = new Date();
 
-  // Parse start time
-  const [startHour, startMinute, startPeriod] = startStr.match(/(\d+):(\d+)\s*(AM|PM)/i)?.slice(1) || [];
-  startDate.setHours(
-    parseInt(startHour) + (startPeriod.toUpperCase() === "PM" && startHour !== "12" ? 12 : 0),
-    parseInt(startMinute),
-    0,
-    0
-  );
+  // Parse start time (already in 24-hour format)
+  const [startHour, startMinute] = startStr.split(":").map(Number);
+  startDate.setHours(startHour, startMinute, 0, 0);
 
-  // Parse end time
-  const [endHour, endMinute, endPeriod] = endStr.match(/(\d+):(\d+)\s*(AM|PM)/i)?.slice(1) || [];
-  endDate.setHours(
-    parseInt(endHour) + (endPeriod.toUpperCase() === "PM" && endHour !== "12" ? 12 : 0),
-    parseInt(endMinute),
-    0,
-    0
-  );
+  // Parse end time (already in 24-hour format)
+  const [endHour, endMinute] = endStr.split(":").map(Number);
+  endDate.setHours(endHour, endMinute, 0, 0);
 
   return [startDate, endDate];
 }

@@ -4,13 +4,15 @@ import { textStyle } from "@ryanliu6/xi/styles";
 import { Button } from "@/components/Button";
 import NameSelector from "@/components/NameSelector";
 import type { ScheduleEntry } from "@/utils/processSchedule";
+import ExpiryTimer from "@/components/ExpiryTimer";
 
 interface ScheduleDisplayProps {
   scheduleData: ScheduleEntry[];
-  onDownloadICS: (name: string | null) => Promise<void>;
+  scheduleId: string;
+  expiryTime: number;
 }
 
-const ScheduleDisplay = ({ scheduleData, onDownloadICS }: ScheduleDisplayProps) => {
+const ScheduleDisplay = ({ scheduleData, scheduleId, expiryTime }: ScheduleDisplayProps) => {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [selectedName, setSelectedName] = useState<string | null>(null);
   const [isDownloading, setIsDownloading] = useState(false);
@@ -20,7 +22,22 @@ const ScheduleDisplay = ({ scheduleData, onDownloadICS }: ScheduleDisplayProps) 
     try {
       setIsDownloading(true);
       setError(null);
-      await onDownloadICS(selectedName);
+
+      const params = new URLSearchParams();
+      if (selectedName) params.set('name', selectedName);
+
+      const response = await fetch(`/api/download-ics/${scheduleId}?${params}`);
+      if (!response.ok) {
+        const error = await response.text();
+        throw new Error(error || "Failed to download schedule");
+      }
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `schedule-${selectedName || 'all'}-${scheduleId}.ics`;
+      a.click();
+      window.URL.revokeObjectURL(url);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to download schedule");
     } finally {
@@ -48,6 +65,10 @@ const ScheduleDisplay = ({ scheduleData, onDownloadICS }: ScheduleDisplayProps) 
 
   return (
     <div className="flex flex-col gap-6">
+      <div className="flex justify-end">
+        <ExpiryTimer expiryTime={expiryTime} />
+      </div>
+
       {/* Name selector */}
       <div className="w-full">
         <NameSelector
