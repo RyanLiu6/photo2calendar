@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
-
-import ImageUpload from "@/components/ImageUpload";
+import UploadHandler from "@/components/UploadHandler";
 ---
+
 <BaseLayout>
   <section class="flex flex-col justify-center items-center pb-8">
     <h1 class="font-bold text-3xl pb-4">Photo2Calendar</h1>
@@ -10,23 +10,7 @@ import ImageUpload from "@/components/ImageUpload";
   </section>
 
   <section class="bg-white shadow rounded-lg p-6 dark:bg-slate-700">
-    <ImageUpload client:load onUpload={async (file: File) => {
-        const formData = new FormData();
-        formData.append("schedule", file);
-
-        const response = await fetch("/api/process-schedule", {
-          method: "POST",
-          body: formData,
-        });
-
-        if (!response.ok) {
-          throw new Error("Failed to process schedule");
-        }
-
-        const { scheduleId } = await response.json();
-        window.location.href = `/${scheduleId}`;
-      }}
-    />
+    <UploadHandler client:load />
 
     <div class="mt-4">
       <h2 class="text-lg font-semibold">How it works</h2>

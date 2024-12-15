@@ -1,0 +1,32 @@
+---
+import ScheduleLayout from "@/layouts/ScheduleLayout.astro";
+import ScheduleDisplay from "@/components/ScheduleDisplay";
+import ErrorBoundary from "@/components/ErrorBoundary";
+import { scheduleStore } from "@/utils/store";
+import { downloadSchedule } from "@/utils/downloadSchedule";
+
+const { scheduleId } = Astro.params;
+
+if (!scheduleId) {
+  return Astro.redirect("/404");
+}
+
+const schedule = scheduleStore.get(scheduleId);
+console.log("Retrieved schedule:", scheduleId, schedule ? "found" : "not found");
+
+if (!schedule) {
+  return Astro.redirect("/404");
+}
+---
+
+<ScheduleLayout scheduleId={scheduleId}>
+  <ErrorBoundary client:load>
+    <ScheduleDisplay
+      client:load
+      scheduleData={schedule.data}
+      onDownloadICS={async (name: string | null) => {
+        await downloadSchedule(scheduleId, name);
+      }}
+    />
+  </ErrorBoundary>
+</ScheduleLayout>
