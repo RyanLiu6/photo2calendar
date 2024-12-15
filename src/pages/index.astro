@@ -1,6 +1,9 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import UploadHandler from "@/components/UploadHandler";
+import { loadSampleOCRResults } from "@/utils/loadSampleData";
+
+const samples = loadSampleOCRResults();
 ---
 
 <BaseLayout>
@@ -11,6 +14,25 @@ import UploadHandler from "@/components/UploadHandler";
 
   <section class="bg-white shadow rounded-lg p-6 dark:bg-slate-700">
     <UploadHandler client:load />
+
+    {samples.length > 0 && (
+      <div class="mt-6 border-t pt-4">
+        <h2 class="text-lg font-semibold mb-3">Test with Sample Data</h2>
+        <div class="flex gap-3">
+          {samples.map((sample, index) => (
+            <button
+              class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 text-sm"
+              onclick={`processSample(${index})`}
+            >
+              Sample {index + 1}
+              <span class="text-xs block text-blue-100">
+                {new Date(sample.metadata.timestamp).toLocaleDateString()}
+              </span>
+            </button>
+          ))}
+        </div>
+      </div>
+    )}
 
     <div class="mt-4">
       <h2 class="text-lg font-semibold">How it works</h2>
@@ -23,3 +45,24 @@ import UploadHandler from "@/components/UploadHandler";
     </div>
   </section>
 </BaseLayout>
+
+<script>
+async function processSample(index) {
+  try {
+    const response = await fetch(`/api/sample/${index}`);
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error || 'Failed to process sample');
+    }
+
+    window.location.href = `/${data.scheduleId}`;
+  } catch (error) {
+    console.error('Error processing sample:', error);
+    alert('Failed to process sample schedule');
+  }
+}
+
+// Make the function available globally
+window.processSample = processSample;
+</script>

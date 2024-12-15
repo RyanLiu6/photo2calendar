@@ -1,0 +1,4872 @@
+{
+  "metadata": {
+    "timestamp": "2024-12-15T04-46-49-620Z",
+    "fileType": "image/jpeg",
+    "fileSize": 417311,
+    "fileName": "IMG_5865.jpeg"
+  },
+  "ocrResponse": {
+    "ParsedResults": [
+      {
+        "TextOverlay": {
+          "Lines": [
+            {
+              "LineText": "Shiraz",
+              "Words": [
+                {
+                  "WordText": "Shiraz",
+                  "Left": 1179,
+                  "Top": 223,
+                  "Height": 63,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Kurtis",
+              "Words": [
+                {
+                  "WordText": "Kurtis",
+                  "Left": 1152,
+                  "Top": 223,
+                  "Height": 60,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Rene",
+              "Words": [
+                {
+                  "WordText": "Rene",
+                  "Left": 1122,
+                  "Top": 223,
+                  "Height": 51,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 51,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Binta",
+              "Words": [
+                {
+                  "WordText": "Binta",
+                  "Left": 1092,
+                  "Top": 223,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Jacqueline",
+              "Words": [
+                {
+                  "WordText": "Jacqueline",
+                  "Left": 1063,
+                  "Top": 220,
+                  "Height": 107,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 107,
+              "MinTop": 220
+            },
+            {
+              "LineText": "Nancy",
+              "Words": [
+                {
+                  "WordText": "Nancy",
+                  "Left": 1030,
+                  "Top": 223,
+                  "Height": 65,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Floater 1",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 1003,
+                  "Top": 223,
+                  "Height": 70,
+                  "Width": 21
+                },
+                {
+                  "WordText": "1",
+                  "Left": 1003,
+                  "Top": 296,
+                  "Height": 14,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 86,
+              "MinTop": 223
+            },
+            {
+              "LineText": "Floater 2",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 976,
+                  "Top": 220,
+                  "Height": 70,
+                  "Width": 21
+                },
+                {
+                  "WordText": "2",
+                  "Left": 976,
+                  "Top": 293,
+                  "Height": 17,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 89,
+              "MinTop": 220
+            },
+            {
+              "LineText": "Floater 3",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 950,
+                  "Top": 220,
+                  "Height": 70,
+                  "Width": 18
+                },
+                {
+                  "WordText": "3",
+                  "Left": 950,
+                  "Top": 293,
+                  "Height": 17,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 89,
+              "MinTop": 220
+            },
+            {
+              "LineText": "Vineeta",
+              "Words": [
+                {
+                  "WordText": "Vineeta",
+                  "Left": 887,
+                  "Top": 217,
+                  "Height": 80,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 80,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Shadi",
+              "Words": [
+                {
+                  "WordText": "Shadi",
+                  "Left": 854,
+                  "Top": 217,
+                  "Height": 63,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Parneet",
+              "Words": [
+                {
+                  "WordText": "Parneet",
+                  "Left": 825,
+                  "Top": 217,
+                  "Height": 85,
+                  "Width": 23
+                }
+              ],
+              "MaxHeight": 85,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Sapanpreet",
+              "Words": [
+                {
+                  "WordText": "Sapanpreet",
+                  "Left": 792,
+                  "Top": 217,
+                  "Height": 119,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 119,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Janvi",
+              "Words": [
+                {
+                  "WordText": "Janvi",
+                  "Left": 771,
+                  "Top": 217,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Angelique",
+              "Words": [
+                {
+                  "WordText": "Angelique",
+                  "Left": 735,
+                  "Top": 217,
+                  "Height": 101,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 101,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Jonathan",
+              "Words": [
+                {
+                  "WordText": "Jonathan",
+                  "Left": 705,
+                  "Top": 214,
+                  "Height": 95,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 95,
+              "MinTop": 214
+            },
+            {
+              "LineText": "Kylie",
+              "Words": [
+                {
+                  "WordText": "Kylie",
+                  "Left": 673,
+                  "Top": 217,
+                  "Height": 54,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Aleena",
+              "Words": [
+                {
+                  "WordText": "Aleena",
+                  "Left": 649,
+                  "Top": 217,
+                  "Height": 71,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 217
+            },
+            {
+              "LineText": "Imran",
+              "Words": [
+                {
+                  "WordText": "Imran",
+                  "Left": 617,
+                  "Top": 213,
+                  "Height": 64,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 64,
+              "MinTop": 213
+            },
+            {
+              "LineText": "Jaiden",
+              "Words": [
+                {
+                  "WordText": "Jaiden",
+                  "Left": 592,
+                  "Top": 211,
+                  "Height": 71,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 211
+            },
+            {
+              "LineText": "Tina",
+              "Words": [
+                {
+                  "WordText": "Tina",
+                  "Left": 556,
+                  "Top": 213,
+                  "Height": 49,
+                  "Width": 26
+                }
+              ],
+              "MaxHeight": 49,
+              "MinTop": 213
+            },
+            {
+              "LineText": "Leslie",
+              "Words": [
+                {
+                  "WordText": "Leslie",
+                  "Left": 530,
+                  "Top": 211,
+                  "Height": 63,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 211
+            },
+            {
+              "LineText": "Floater",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 500,
+                  "Top": 214,
+                  "Height": 74,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 74,
+              "MinTop": 214
+            },
+            {
+              "LineText": "1-Dec",
+              "Words": [
+                {
+                  "WordText": "1",
+                  "Left": 1235,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1235,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1235,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 363
+            },
+            {
+              "LineText": "Sun",
+              "Words": [
+                {
+                  "WordText": "Sun",
+                  "Left": 1206,
+                  "Top": 372,
+                  "Height": 42,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 42,
+              "MinTop": 372
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1092,
+                  "Top": 357,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1092,
+                  "Top": 357,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1092,
+                  "Top": 357,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 357
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1030,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1030,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1030,
+                  "Top": 363,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 363
+            },
+            {
+              "LineText": "Хг",
+              "Words": [
+                {
+                  "WordText": "Хг",
+                  "Left": 768,
+                  "Top": 375,
+                  "Height": 30,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 375
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 741,
+                  "Top": 360,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 741,
+                  "Top": 360,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "6",
+                  "Left": 741,
+                  "Top": 360,
+                  "Height": 60,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 360
+            },
+            {
+              "LineText": "1030-7",
+              "Words": [
+                {
+                  "WordText": "1030",
+                  "Left": 711,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 711,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "7",
+                  "Left": 711,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 354
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 682,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 682,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 682,
+                  "Top": 354,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 354
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 592,
+                  "Top": 372,
+                  "Height": 30,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 372
+            },
+            {
+              "LineText": "2-Dec",
+              "Words": [
+                {
+                  "WordText": "2",
+                  "Left": 1235,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1235,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1235,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 473
+            },
+            {
+              "LineText": "Mon",
+              "Words": [
+                {
+                  "WordText": "Mon",
+                  "Left": 1206,
+                  "Top": 476,
+                  "Height": 48,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 48,
+              "MinTop": 476
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1149,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1149,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1149,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 467
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1116,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1116,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1116,
+                  "Top": 473,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 473
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1092,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1092,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1092,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 473
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1003,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1003,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1003,
+                  "Top": 467,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 467
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 973,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 973,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 973,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 467
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 884,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 884,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 884,
+                  "Top": 467,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 467
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 854,
+                  "Top": 473,
+                  "Height": 63,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 854,
+                  "Top": 473,
+                  "Height": 63,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 854,
+                  "Top": 473,
+                  "Height": 63,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 473
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 831,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 831,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 831,
+                  "Top": 473,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 473
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 768,
+                  "Top": 488,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 488
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 623,
+                  "Top": 467,
+                  "Height": 67,
+                  "Width": 20
+                },
+                {
+                  "WordText": "-",
+                  "Left": 623,
+                  "Top": 467,
+                  "Height": 67,
+                  "Width": 20
+                },
+                {
+                  "WordText": "8",
+                  "Left": 623,
+                  "Top": 467,
+                  "Height": 67,
+                  "Width": 20
+                }
+              ],
+              "MaxHeight": 67,
+              "MinTop": 467
+            },
+            {
+              "LineText": "3-Dec",
+              "Words": [
+                {
+                  "WordText": "3",
+                  "Left": 1235,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1235,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1235,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 580
+            },
+            {
+              "LineText": "Tue",
+              "Words": [
+                {
+                  "WordText": "Tue",
+                  "Left": 1206,
+                  "Top": 589,
+                  "Height": 39,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 39,
+              "MinTop": 589
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1176,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1176,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1176,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 575
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1149,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1149,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1149,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 580
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1119,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1119,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 21
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1119,
+                  "Top": 580,
+                  "Height": 54,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 580
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 1092,
+                  "Top": 595,
+                  "Height": 27,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 27,
+              "MinTop": 595
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1063,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1063,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1063,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 575
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1006,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1006,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1006,
+                  "Top": 575,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 575
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 884,
+                  "Top": 575,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 884,
+                  "Top": 575,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 884,
+                  "Top": 575,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 575
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 860,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 860,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "530",
+                  "Left": 860,
+                  "Top": 580,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 580
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 798,
+                  "Top": 580,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 798,
+                  "Top": 580,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "5",
+                  "Left": 798,
+                  "Top": 580,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 580
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 768,
+                  "Top": 595,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 595
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 744,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 744,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 744,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 575
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 625,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 625,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "10",
+                  "Left": 625,
+                  "Top": 575,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 575
+            },
+            {
+              "LineText": "Dec 1-14",
+              "Words": [
+                {
+                  "WordText": "Dec",
+                  "Left": 1272,
+                  "Top": 683,
+                  "Height": 111,
+                  "Width": 52
+                },
+                {
+                  "WordText": "1",
+                  "Left": 1278,
+                  "Top": 798,
+                  "Height": 141,
+                  "Width": 53
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1278,
+                  "Top": 798,
+                  "Height": 141,
+                  "Width": 53
+                },
+                {
+                  "WordText": "14",
+                  "Left": 1278,
+                  "Top": 798,
+                  "Height": 141,
+                  "Width": 53
+                }
+              ],
+              "MaxHeight": 256,
+              "MinTop": 683
+            },
+            {
+              "LineText": "4-Dec",
+              "Words": [
+                {
+                  "WordText": "4",
+                  "Left": 1232,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1232,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1232,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 685
+            },
+            {
+              "LineText": "Wed",
+              "Words": [
+                {
+                  "WordText": "Wed",
+                  "Left": 1206,
+                  "Top": 688,
+                  "Height": 48,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 48,
+              "MinTop": 688
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1173,
+                  "Top": 685,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1173,
+                  "Top": 685,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1173,
+                  "Top": 685,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 685
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1146,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1146,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1146,
+                  "Top": 685,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 685
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1119,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1119,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1119,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 679
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1092,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1092,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1092,
+                  "Top": 679,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 679
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1063,
+                  "Top": 682,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1063,
+                  "Top": 682,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1063,
+                  "Top": 682,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 682
+            },
+            {
+              "LineText": "5-Dec",
+              "Words": [
+                {
+                  "WordText": "5",
+                  "Left": 1232,
+                  "Top": 789,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1232,
+                  "Top": 789,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1232,
+                  "Top": 789,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 789
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1176,
+                  "Top": 789,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1176,
+                  "Top": 789,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1176,
+                  "Top": 789,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 789
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1146,
+                  "Top": 783,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1146,
+                  "Top": 783,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1146,
+                  "Top": 783,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 783
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1114,
+                  "Top": 785,
+                  "Height": 67,
+                  "Width": 22
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1114,
+                  "Top": 785,
+                  "Height": 67,
+                  "Width": 22
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1114,
+                  "Top": 785,
+                  "Height": 67,
+                  "Width": 22
+                }
+              ],
+              "MaxHeight": 67,
+              "MinTop": 785
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1087,
+                  "Top": 789,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1087,
+                  "Top": 789,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1087,
+                  "Top": 789,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 789
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1063,
+                  "Top": 786,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1063,
+                  "Top": 786,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1063,
+                  "Top": 786,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 786
+            },
+            {
+              "LineText": "6-Dec",
+              "Words": [
+                {
+                  "WordText": "6",
+                  "Left": 1232,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1232,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1232,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 890
+            },
+            {
+              "LineText": "Fri",
+              "Words": [
+                {
+                  "WordText": "Fri",
+                  "Left": 1206,
+                  "Top": 905,
+                  "Height": 27,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 27,
+              "MinTop": 905
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1173,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1173,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1173,
+                  "Top": 890,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 890
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1146,
+                  "Top": 893,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1146,
+                  "Top": 893,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1146,
+                  "Top": 893,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 893
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1113,
+                  "Top": 887,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1113,
+                  "Top": 887,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1113,
+                  "Top": 887,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 887
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1089,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1089,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1089,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 887
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1063,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1063,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1063,
+                  "Top": 887,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 887
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 860,
+                  "Top": 682,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 860,
+                  "Top": 682,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 860,
+                  "Top": 682,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 682
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 828,
+                  "Top": 688,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 828,
+                  "Top": 688,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 828,
+                  "Top": 688,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 688
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 860,
+                  "Top": 789,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 860,
+                  "Top": 789,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 860,
+                  "Top": 789,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 789
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 828,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 828,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 828,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 789
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 804,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 804,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "530",
+                  "Left": 804,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 795
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 771,
+                  "Top": 810,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 810
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 747,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 747,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 747,
+                  "Top": 795,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 795
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 887,
+                  "Top": 911,
+                  "Height": 30,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 911
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 860,
+                  "Top": 896,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 860,
+                  "Top": 896,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 860,
+                  "Top": 896,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 896
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 833,
+                  "Top": 896,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 833,
+                  "Top": 896,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "530",
+                  "Left": 833,
+                  "Top": 896,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 896
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 807,
+                  "Top": 890,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 807,
+                  "Top": 890,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 807,
+                  "Top": 890,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 890
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 744,
+                  "Top": 893,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 744,
+                  "Top": 893,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "10",
+                  "Left": 744,
+                  "Top": 893,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 893
+            },
+            {
+              "LineText": "2024",
+              "Words": [
+                {
+                  "WordText": "2024",
+                  "Left": 1288,
+                  "Top": 969,
+                  "Height": 114,
+                  "Width": 59
+                }
+              ],
+              "MaxHeight": 114,
+              "MinTop": 969
+            },
+            {
+              "LineText": "7-Dec",
+              "Words": [
+                {
+                  "WordText": "7",
+                  "Left": 1232,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1232,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1232,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 994
+            },
+            {
+              "LineText": "Sat",
+              "Words": [
+                {
+                  "WordText": "Sat",
+                  "Left": 1203,
+                  "Top": 1003,
+                  "Height": 36,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 36,
+              "MinTop": 1003
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1176,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1176,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1176,
+                  "Top": 994,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 994
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 1113,
+                  "Top": 1009,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 1009
+            },
+            {
+              "LineText": "1030-7",
+              "Words": [
+                {
+                  "WordText": "1030",
+                  "Left": 1063,
+                  "Top": 988,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1063,
+                  "Top": 988,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "7",
+                  "Left": 1063,
+                  "Top": 988,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 988
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1006,
+                  "Top": 991,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1006,
+                  "Top": 991,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1006,
+                  "Top": 991,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 991
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 836,
+                  "Top": 1000,
+                  "Height": 54,
+                  "Width": 15
+                },
+                {
+                  "WordText": "-",
+                  "Left": 836,
+                  "Top": 1000,
+                  "Height": 54,
+                  "Width": 15
+                },
+                {
+                  "WordText": "5",
+                  "Left": 836,
+                  "Top": 1000,
+                  "Height": 54,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 1000
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 807,
+                  "Top": 994,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 807,
+                  "Top": 994,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 807,
+                  "Top": 994,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 994
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 743,
+                  "Top": 993,
+                  "Height": 71,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 743,
+                  "Top": 993,
+                  "Height": 71,
+                  "Width": 27
+                },
+                {
+                  "WordText": "630",
+                  "Left": 743,
+                  "Top": 993,
+                  "Height": 71,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 993
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 625,
+                  "Top": 682,
+                  "Height": 74,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 625,
+                  "Top": 682,
+                  "Height": 74,
+                  "Width": 24
+                },
+                {
+                  "WordText": "8",
+                  "Left": 625,
+                  "Top": 682,
+                  "Height": 74,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 74,
+              "MinTop": 682
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 515,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 515,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "630",
+                  "Left": 515,
+                  "Top": 789,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 789
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 512,
+                  "Top": 896,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 512,
+                  "Top": 896,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 512,
+                  "Top": 896,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 896
+            },
+            {
+              "LineText": "Shiraz",
+              "Words": [
+                {
+                  "WordText": "Shiraz",
+                  "Left": 1176,
+                  "Top": 1072,
+                  "Height": 60,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1072
+            },
+            {
+              "LineText": "Kurtis",
+              "Words": [
+                {
+                  "WordText": "Kurtis",
+                  "Left": 1146,
+                  "Top": 1075,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1075
+            },
+            {
+              "LineText": "Rene",
+              "Words": [
+                {
+                  "WordText": "Rene",
+                  "Left": 1119,
+                  "Top": 1075,
+                  "Height": 48,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 48,
+              "MinTop": 1075
+            },
+            {
+              "LineText": "Binta",
+              "Words": [
+                {
+                  "WordText": "Binta",
+                  "Left": 1092,
+                  "Top": 1075,
+                  "Height": 51,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 51,
+              "MinTop": 1075
+            },
+            {
+              "LineText": "Jacqueline",
+              "Words": [
+                {
+                  "WordText": "Jacqueline",
+                  "Left": 1060,
+                  "Top": 1075,
+                  "Height": 98,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 98,
+              "MinTop": 1075
+            },
+            {
+              "LineText": "Nancy",
+              "Words": [
+                {
+                  "WordText": "Nancy",
+                  "Left": 1030,
+                  "Top": 1075,
+                  "Height": 63,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 1075
+            },
+            {
+              "LineText": "Floater 1",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 1006,
+                  "Top": 1078,
+                  "Height": 64,
+                  "Width": 18
+                },
+                {
+                  "WordText": "1",
+                  "Left": 1006,
+                  "Top": 1143,
+                  "Height": 14,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 80,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Floater2",
+              "Words": [
+                {
+                  "WordText": "Floater2",
+                  "Left": 979,
+                  "Top": 1078,
+                  "Height": 74,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 74,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Floater 3",
+              "Words": [
+                {
+                  "WordText": "Floater",
+                  "Left": 950,
+                  "Top": 1077,
+                  "Height": 64,
+                  "Width": 20
+                },
+                {
+                  "WordText": "3",
+                  "Left": 950,
+                  "Top": 1144,
+                  "Height": 15,
+                  "Width": 20
+                }
+              ],
+              "MaxHeight": 81,
+              "MinTop": 1077
+            },
+            {
+              "LineText": "Vineeta",
+              "Words": [
+                {
+                  "WordText": "Vineeta",
+                  "Left": 890,
+                  "Top": 1078,
+                  "Height": 74,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 74,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Shadi",
+              "Words": [
+                {
+                  "WordText": "Shadi",
+                  "Left": 860,
+                  "Top": 1078,
+                  "Height": 57,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Parneet",
+              "Words": [
+                {
+                  "WordText": "Parneet",
+                  "Left": 836,
+                  "Top": 1078,
+                  "Height": 74,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 74,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Sapanpree",
+              "Words": [
+                {
+                  "WordText": "Sapanpree",
+                  "Left": 807,
+                  "Top": 1078,
+                  "Height": 101,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 101,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Janvi",
+              "Words": [
+                {
+                  "WordText": "Janvi",
+                  "Left": 780,
+                  "Top": 1078,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 1078
+            },
+            {
+              "LineText": "Angelique",
+              "Words": [
+                {
+                  "WordText": "Angelique",
+                  "Left": 747,
+                  "Top": 1081,
+                  "Height": 92,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 92,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Jonathan",
+              "Words": [
+                {
+                  "WordText": "Jonathan",
+                  "Left": 720,
+                  "Top": 1081,
+                  "Height": 86,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 86,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Kylie",
+              "Words": [
+                {
+                  "WordText": "Kylie",
+                  "Left": 688,
+                  "Top": 1081,
+                  "Height": 51,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 51,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Aleena",
+              "Words": [
+                {
+                  "WordText": "Aleena",
+                  "Left": 664,
+                  "Top": 1081,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Imran",
+              "Words": [
+                {
+                  "WordText": "Imran",
+                  "Left": 637,
+                  "Top": 1081,
+                  "Height": 60,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Jaiden",
+              "Words": [
+                {
+                  "WordText": "Jaiden",
+                  "Left": 607,
+                  "Top": 1081,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1081
+            },
+            {
+              "LineText": "Tina",
+              "Words": [
+                {
+                  "WordText": "Tina",
+                  "Left": 580,
+                  "Top": 1084,
+                  "Height": 42,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 42,
+              "MinTop": 1084
+            },
+            {
+              "LineText": "Leslie",
+              "Words": [
+                {
+                  "WordText": "Leslie",
+                  "Left": 551,
+                  "Top": 1084,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1084
+            },
+            {
+              "LineText": "Simrat",
+              "Words": [
+                {
+                  "WordText": "Simrat",
+                  "Left": 521,
+                  "Top": 1084,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1084
+            },
+            {
+              "LineText": "8-Dec",
+              "Words": [
+                {
+                  "WordText": "8",
+                  "Left": 1235,
+                  "Top": 1203,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1235,
+                  "Top": 1203,
+                  "Height": 54,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1235,
+                  "Top": 1203,
+                  "Height": 54,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 54,
+              "MinTop": 1203
+            },
+            {
+              "LineText": "Sun",
+              "Words": [
+                {
+                  "WordText": "Sun",
+                  "Left": 1206,
+                  "Top": 1209,
+                  "Height": 36,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 36,
+              "MinTop": 1209
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1092,
+                  "Top": 1203,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1092,
+                  "Top": 1203,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1092,
+                  "Top": 1203,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1203
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1009,
+                  "Top": 1200,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1009,
+                  "Top": 1200,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1009,
+                  "Top": 1200,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1200
+            },
+            {
+              "LineText": "1030-7",
+              "Words": [
+                {
+                  "WordText": "1030",
+                  "Left": 839,
+                  "Top": 1203,
+                  "Height": 63,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 839,
+                  "Top": 1203,
+                  "Height": 63,
+                  "Width": 18
+                },
+                {
+                  "WordText": "7",
+                  "Left": 839,
+                  "Top": 1203,
+                  "Height": 63,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 1203
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 661,
+                  "Top": 1226,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 1226
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 610,
+                  "Top": 1209,
+                  "Height": 63,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 610,
+                  "Top": 1209,
+                  "Height": 63,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 610,
+                  "Top": 1209,
+                  "Height": 63,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 1209
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 554,
+                  "Top": 1215,
+                  "Height": 57,
+                  "Width": 15
+                },
+                {
+                  "WordText": "-",
+                  "Left": 554,
+                  "Top": 1215,
+                  "Height": 57,
+                  "Width": 15
+                },
+                {
+                  "WordText": "6",
+                  "Left": 554,
+                  "Top": 1215,
+                  "Height": 57,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1215
+            },
+            {
+              "LineText": "9-Dec",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 1229,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1229,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 27
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1229,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1310
+            },
+            {
+              "LineText": "Mon",
+              "Words": [
+                {
+                  "WordText": "Mon",
+                  "Left": 1203,
+                  "Top": 1313,
+                  "Height": 51,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 51,
+              "MinTop": 1313
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1176,
+                  "Top": 1304,
+                  "Height": 68,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1176,
+                  "Top": 1304,
+                  "Height": 68,
+                  "Width": 27
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1176,
+                  "Top": 1304,
+                  "Height": 68,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1304
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1149,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1149,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1149,
+                  "Top": 1310,
+                  "Height": 57,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1310
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1088,
+                  "Top": 1305,
+                  "Height": 71,
+                  "Width": 31
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1088,
+                  "Top": 1305,
+                  "Height": 71,
+                  "Width": 31
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1088,
+                  "Top": 1305,
+                  "Height": 71,
+                  "Width": 31
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1305
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1066,
+                  "Top": 1310,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1066,
+                  "Top": 1310,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1066,
+                  "Top": 1310,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1310
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1006,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1006,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1006,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1307
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 893,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 893,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 893,
+                  "Top": 1307,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1307
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 863,
+                  "Top": 1313,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 863,
+                  "Top": 1313,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 863,
+                  "Top": 1313,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1313
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 750,
+                  "Top": 1310,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 750,
+                  "Top": 1310,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 750,
+                  "Top": 1310,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1310
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 640,
+                  "Top": 1313,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 640,
+                  "Top": 1313,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 640,
+                  "Top": 1313,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1313
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 607,
+                  "Top": 1322,
+                  "Height": 63,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 607,
+                  "Top": 1322,
+                  "Height": 63,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 607,
+                  "Top": 1322,
+                  "Height": 63,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 1322
+            },
+            {
+              "LineText": "10-Dec",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1235,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1235,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1235,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1405
+            },
+            {
+              "LineText": "Tue",
+              "Words": [
+                {
+                  "WordText": "Tue",
+                  "Left": 1209,
+                  "Top": 1420,
+                  "Height": 42,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 42,
+              "MinTop": 1420
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1179,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1179,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1179,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1411
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1149,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1149,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 27
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1149,
+                  "Top": 1405,
+                  "Height": 71,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1405
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1122,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1122,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1122,
+                  "Top": 1411,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1411
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1066,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1066,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1066,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1408
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1006,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1006,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 27
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1006,
+                  "Top": 1408,
+                  "Height": 68,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1408
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 893,
+                  "Top": 1408,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 893,
+                  "Top": 1408,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 893,
+                  "Top": 1408,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1408
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 863,
+                  "Top": 1414,
+                  "Height": 63,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 863,
+                  "Top": 1414,
+                  "Height": 63,
+                  "Width": 27
+                },
+                {
+                  "WordText": "530",
+                  "Left": 863,
+                  "Top": 1414,
+                  "Height": 63,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 63,
+              "MinTop": 1414
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 836,
+                  "Top": 1417,
+                  "Height": 60,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 836,
+                  "Top": 1417,
+                  "Height": 60,
+                  "Width": 27
+                },
+                {
+                  "WordText": "5",
+                  "Left": 836,
+                  "Top": 1417,
+                  "Height": 60,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1417
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 810,
+                  "Top": 1411,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 810,
+                  "Top": 1411,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "8",
+                  "Left": 810,
+                  "Top": 1411,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1411
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 643,
+                  "Top": 1417,
+                  "Height": 65,
+                  "Width": 15
+                },
+                {
+                  "WordText": "-",
+                  "Left": 643,
+                  "Top": 1417,
+                  "Height": 65,
+                  "Width": 15
+                },
+                {
+                  "WordText": "10",
+                  "Left": 643,
+                  "Top": 1417,
+                  "Height": 65,
+                  "Width": 15
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1417
+            },
+            {
+              "LineText": "11-Dec",
+              "Words": [
+                {
+                  "WordText": "11",
+                  "Left": 1238,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1238,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1238,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1509
+            },
+            {
+              "LineText": "Wed",
+              "Words": [
+                {
+                  "WordText": "Wed",
+                  "Left": 1212,
+                  "Top": 1515,
+                  "Height": 51,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 51,
+              "MinTop": 1515
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1182,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1182,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1182,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1515
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1152,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1152,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1152,
+                  "Top": 1515,
+                  "Height": 57,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1515
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1125,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1125,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1125,
+                  "Top": 1509,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1509
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1069,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1069,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1069,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1512
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1012,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1012,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1012,
+                  "Top": 1512,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1512
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 896,
+                  "Top": 1518,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 896,
+                  "Top": 1518,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 896,
+                  "Top": 1518,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1518
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 866,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 866,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 866,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1515
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 839,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 839,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "630",
+                  "Left": 839,
+                  "Top": 1515,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1515
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 816,
+                  "Top": 1536,
+                  "Height": 27,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 27,
+              "MinTop": 1536
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 783,
+                  "Top": 1536,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 1536
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 756,
+                  "Top": 1521,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 756,
+                  "Top": 1521,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "5",
+                  "Left": 756,
+                  "Top": 1521,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1521
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 643,
+                  "Top": 1521,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 643,
+                  "Top": 1521,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 643,
+                  "Top": 1521,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1521
+            },
+            {
+              "LineText": "12-Dec",
+              "Words": [
+                {
+                  "WordText": "12",
+                  "Left": 1244,
+                  "Top": 1610,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1244,
+                  "Top": 1610,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1244,
+                  "Top": 1610,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1610
+            },
+            {
+              "LineText": "Thu",
+              "Words": [
+                {
+                  "WordText": "Thu",
+                  "Left": 1217,
+                  "Top": 1625,
+                  "Height": 39,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 39,
+              "MinTop": 1625
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1185,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1185,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1185,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1616
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1155,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1155,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1155,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1613
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1125,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1125,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1125,
+                  "Top": 1616,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1616
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1098,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1098,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1098,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1613
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1072,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1072,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1072,
+                  "Top": 1613,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1613
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 899,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 899,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 21
+                },
+                {
+                  "WordText": "5",
+                  "Left": 899,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1622
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 869,
+                  "Top": 1616,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 869,
+                  "Top": 1616,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 869,
+                  "Top": 1616,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1616
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 839,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 839,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 839,
+                  "Top": 1622,
+                  "Height": 57,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1622
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 819,
+                  "Top": 1616,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 819,
+                  "Top": 1616,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "8",
+                  "Left": 819,
+                  "Top": 1616,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1616
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 786,
+                  "Top": 1637,
+                  "Height": 30,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 1637
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 759,
+                  "Top": 1619,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 759,
+                  "Top": 1619,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 759,
+                  "Top": 1619,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1619
+            },
+            {
+              "LineText": "13-Dec",
+              "Words": [
+                {
+                  "WordText": "13",
+                  "Left": 1244,
+                  "Top": 1715,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1244,
+                  "Top": 1715,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1244,
+                  "Top": 1715,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1715
+            },
+            {
+              "LineText": "Fri",
+              "Words": [
+                {
+                  "WordText": "Fri",
+                  "Left": 1217,
+                  "Top": 1732,
+                  "Height": 36,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 36,
+              "MinTop": 1732
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 1185,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 27
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1185,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 27
+                },
+                {
+                  "WordText": "6",
+                  "Left": 1185,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 27
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1721
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1128,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1128,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1128,
+                  "Top": 1721,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1721
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 1101,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1101,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "8",
+                  "Left": 1101,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1718
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 1072,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1072,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                },
+                {
+                  "WordText": "630",
+                  "Left": 1072,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1718
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1018,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1018,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1018,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1718
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 899,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 899,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 899,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1724
+            },
+            {
+              "LineText": "9-530",
+              "Words": [
+                {
+                  "WordText": "9",
+                  "Left": 872,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 872,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "530",
+                  "Left": 872,
+                  "Top": 1724,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1724
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 848,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 848,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 848,
+                  "Top": 1718,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1718
+            },
+            {
+              "LineText": "1130-8",
+              "Words": [
+                {
+                  "WordText": "1130",
+                  "Left": 816,
+                  "Top": 1721,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 816,
+                  "Top": 1721,
+                  "Height": 68,
+                  "Width": 21
+                },
+                {
+                  "WordText": "8",
+                  "Left": 816,
+                  "Top": 1721,
+                  "Height": 68,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1721
+            },
+            {
+              "LineText": "10-630",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 755,
+                  "Top": 1720,
+                  "Height": 73,
+                  "Width": 26
+                },
+                {
+                  "WordText": "-",
+                  "Left": 755,
+                  "Top": 1720,
+                  "Height": 73,
+                  "Width": 26
+                },
+                {
+                  "WordText": "630",
+                  "Left": 755,
+                  "Top": 1720,
+                  "Height": 73,
+                  "Width": 26
+                }
+              ],
+              "MaxHeight": 73,
+              "MinTop": 1720
+            },
+            {
+              "LineText": "14-Dec",
+              "Words": [
+                {
+                  "WordText": "14",
+                  "Left": 1253,
+                  "Top": 1819,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1253,
+                  "Top": 1819,
+                  "Height": 68,
+                  "Width": 18
+                },
+                {
+                  "WordText": "Dec",
+                  "Left": 1253,
+                  "Top": 1819,
+                  "Height": 68,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 68,
+              "MinTop": 1819
+            },
+            {
+              "LineText": "Sat",
+              "Words": [
+                {
+                  "WordText": "Sat",
+                  "Left": 1220,
+                  "Top": 1837,
+                  "Height": 39,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 39,
+              "MinTop": 1837
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 1161,
+                  "Top": 1828,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1161,
+                  "Top": 1828,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "5",
+                  "Left": 1161,
+                  "Top": 1828,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1828
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 1131,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1131,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "10",
+                  "Left": 1131,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1822
+            },
+            {
+              "LineText": "1030-7",
+              "Words": [
+                {
+                  "WordText": "1030",
+                  "Left": 1104,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 1104,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                },
+                {
+                  "WordText": "7",
+                  "Left": 1104,
+                  "Top": 1822,
+                  "Height": 71,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 71,
+              "MinTop": 1822
+            },
+            {
+              "LineText": "930-6",
+              "Words": [
+                {
+                  "WordText": "930",
+                  "Left": 816,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "-",
+                  "Left": 816,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 24
+                },
+                {
+                  "WordText": "6",
+                  "Left": 816,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1831
+            },
+            {
+              "LineText": "Xr",
+              "Words": [
+                {
+                  "WordText": "Xr",
+                  "Left": 789,
+                  "Top": 1846,
+                  "Height": 30,
+                  "Width": 24
+                }
+              ],
+              "MaxHeight": 30,
+              "MinTop": 1846
+            },
+            {
+              "LineText": "830-5",
+              "Words": [
+                {
+                  "WordText": "830",
+                  "Left": 703,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "-",
+                  "Left": 703,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 21
+                },
+                {
+                  "WordText": "5",
+                  "Left": 703,
+                  "Top": 1831,
+                  "Height": 60,
+                  "Width": 21
+                }
+              ],
+              "MaxHeight": 60,
+              "MinTop": 1831
+            },
+            {
+              "LineText": "10-3p",
+              "Words": [
+                {
+                  "WordText": "10",
+                  "Left": 619,
+                  "Top": 1831,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 619,
+                  "Top": 1831,
+                  "Height": 57,
+                  "Width": 18
+                },
+                {
+                  "WordText": "3p",
+                  "Left": 619,
+                  "Top": 1831,
+                  "Height": 57,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 57,
+              "MinTop": 1831
+            },
+            {
+              "LineText": "130-10",
+              "Words": [
+                {
+                  "WordText": "130",
+                  "Left": 592,
+                  "Top": 1828,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "-",
+                  "Left": 592,
+                  "Top": 1828,
+                  "Height": 65,
+                  "Width": 18
+                },
+                {
+                  "WordText": "10",
+                  "Left": 592,
+                  "Top": 1828,
+                  "Height": 65,
+                  "Width": 18
+                }
+              ],
+              "MaxHeight": 65,
+              "MinTop": 1828
+            }
+          ],
+          "HasOverlay": true
+        },
+        "TextOrientation": "0",
+        "FileParseExitCode": 1,
+        "ParsedText": "Floater\tLeslie\tTina\tJaiden\tImran\tAleena\tKylie\tJonathan\tAngelique\tJanvi\tSapanpreet\tParneet\tShadi\tVineeta\tFloater 3\tFloater 2\tFloater 1\tNancy\tJacqueline\tBinta\tRene\tKurtis\tShiraz\t\r\nXr\t1130-8\t1030-7\t930-6\tХг\t930-6\t1130-8\tSun\t1-Dec\t\r\n1130-8\tXr\t830-5\t9-530\t130-10\t130-10\t1130-8\t930-6\t830-5\t10-630\tMon\t2-Dec\t\r\n130-10\t1130-8\tXr\t830-5\t9-530\t10-630\t1130-8\t10-630\tXr\t930-6\t830-5\t130-10\tTue\t3-Dec\t\r\n10-630\t10-630\t1130-8\t130-10\t830-5\tXr\t9-530\t1130-8\t9-530\t130-10\t9-530\t130-10\t1130-8\t830-5\tXr\t1130-8\t10-630\t10-630\t830-5\t1130-8\t130-10\t130-10\t1130-8\t10-630\t830-5\t130-10\t830-5\t930-6\t930-6\t930-6\tWed\tFri\t4-Dec\t5-Dec\t6-Dec\tDec 1-14\t\r\n10-630\t130-10\t830-5\t130-10\t1030-7\tXr\t830-5\tSat\t7-Dec\t2024\t\r\nSimrat\tLeslie\tTina\tJaiden\tImran\tAleena\tKylie\tJonathan\tAngelique\tJanvi\tSapanpree\tParneet\tShadi\tVineeta\tFloater 3\tFloater2\tFloater 1\tNancy\tJacqueline\tBinta\tRene\tKurtis\tShiraz\t\r\n930-6\t1130-8\tXr\t1030-7\t1130-8\t930-6\tSun\t8-Dec\t\r\n9-530\t1130-8\t10-630\t830-5\t130-10\t1130-8\t930-6\t10-630\t830-5\t130-10\tMon\t9-Dec\t\r\n130-10\t1130-8\t830-5\t9-530\t10-630\t1130-8\t10-630\t830-5\t130-10\t930-6\tTue\t10-Dec\t\r\n1130-8\t830-5\tXr\tXr\t10-630\t130-10\t9-530\t130-10\t10-630\t1130-8\t830-5\t930-6\tWed\t11-Dec\t\r\n130-10\tXr\t1130-8\t9-530\t10-630\t830-5\t1130-8\t130-10\t830-5\t10-630\t930-6\tThu\t12-Dec\t\r\n10-630\t1130-8\t130-10\t9-530\t830-5\t130-10\t10-630\t1130-8\t830-5\t930-6\tFri\t13-Dec\t\r\n130-10\t10-3p\t830-5\tXr\t930-6\t1030-7\t130-10\t830-5\tSat\t14-Dec\t\r\n",
+        "ErrorMessage": "",
+        "ErrorDetails": ""
+      }
+    ],
+    "OCRExitCode": 1,
+    "IsErroredOnProcessing": false,
+    "ProcessingTimeInMilliseconds": "1703",
+    "SearchablePDFURL": "Searchable PDF not generated as it was not requested."
+  }
+}
