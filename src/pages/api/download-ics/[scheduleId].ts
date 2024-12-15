@@ -1,9 +1,9 @@
-import type { APIRoute } from "astro";
+import type { APIRoute, APIContext } from "astro";
 import { createEvents } from "ics";
-import { scheduleStore } from "@/utils/store";
+import { getStore } from "@/utils/store/index";
 import type { EventAttributes } from 'ics';
 
-export const GET: APIRoute = async ({ params, request }) => {
+export const GET: APIRoute = async ({ params, request, locals }: APIContext) => {
   const { scheduleId } = params;
   const url = new URL(request.url);
   const name = url.searchParams.get('name');
@@ -12,7 +12,8 @@ export const GET: APIRoute = async ({ params, request }) => {
     return new Response("Schedule ID is required", { status: 400 });
   }
 
-  const schedule = scheduleStore.get(scheduleId);
+  const store = getStore(locals.runtime.env.DB);
+  const schedule = await store.get(scheduleId);
 
   if (!schedule) {
     return new Response("Schedule not found", { status: 404 });
@@ -67,19 +68,20 @@ export const GET: APIRoute = async ({ params, request }) => {
 };
 
 function parseShiftTimes(shift: string): [Date, Date] {
-  // Our shift format is now "HH:MM-HH:MM" (24-hour format)
   const [startStr, endStr] = shift.split("-").map(s => s.trim());
+  const [startHour, startMinute] = startStr.split(":").map(Number);
+  const [endHour, endMinute] = endStr.split(":").map(Number);
 
   const startDate = new Date();
-  const endDate = new Date();
-
-  // Parse start time (already in 24-hour format)
-  const [startHour, startMinute] = startStr.split(":").map(Number);
   startDate.setHours(startHour, startMinute, 0, 0);
 
-  // Parse end time (already in 24-hour format)
-  const [endHour, endMinute] = endStr.split(":").map(Number);
+  const endDate = new Date();
   endDate.setHours(endHour, endMinute, 0, 0);
+
+  // Handle overnight shifts
+  if (endHour < startHour) {
+    endDate.setDate(endDate.getDate() + 1);
+  }
 
   return [startDate, endDate];
 }

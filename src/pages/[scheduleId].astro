@@ -2,7 +2,7 @@
 import ScheduleLayout from "@/layouts/ScheduleLayout.astro";
 import ScheduleDisplay from "@/components/ScheduleDisplay";
 import ErrorBoundary from "@/components/ErrorBoundary";
-import { scheduleStore } from "@/utils/store";
+import { getStore } from '@/utils/store/index';
 
 const { scheduleId } = Astro.params;
 
@@ -10,7 +10,8 @@ if (!scheduleId) {
   return Astro.redirect("/404");
 }
 
-const schedule = scheduleStore.get(scheduleId);
+const store = getStore(Astro.locals.runtime.env.DB);
+const schedule = await store.get(scheduleId);
 console.log("Retrieved schedule:", scheduleId, schedule ? "found" : "not found");
 
 if (!schedule) {

@@ -1,6 +1,6 @@
-import type { APIRoute } from "astro";
+import type { APIContext } from 'astro';
 import { processScheduleText } from "@/utils/processSchedule";
-import { scheduleStore } from "@/utils/store";
+import { getStore } from '@/utils/store/index';
 import { nanoid } from "nanoid";
 
 const OCR_API_KEY = import.meta.env.OCR_API_KEY;
@@ -9,7 +9,8 @@ const OCR_API_URL = "https://api.ocr.space/parse/image";
 const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 const MAX_SIZE = 5 * 1024 * 1024; // 5MB
 
-export const POST: APIRoute = async ({ request }) => {
+export const POST = async ({ request, locals }: APIContext) => {
+  const store = getStore(locals.runtime.env.DB);
   try {
     console.log("Received upload request");
     const formData = await request.formData();
@@ -85,7 +86,7 @@ export const POST: APIRoute = async ({ request }) => {
     const scheduleId = nanoid(10);
     console.log("Generated scheduleId:", scheduleId);
 
-    scheduleStore.set(scheduleId, {
+    await store.set(scheduleId, {
       data: scheduleData,
       expiry: Date.now() + 3600000 // 1 hour
     });
