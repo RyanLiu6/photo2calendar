@@ -65,17 +65,16 @@ const ScheduleDisplay = ({ scheduleData, scheduleId, expiryTime }: ScheduleDispl
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex justify-end">
+      {/* Header row with name selector and expiry timer */}
+      <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
+        <div className="w-full md:w-64"> {/* Fixed width for name selector on larger screens */}
+          <NameSelector
+            scheduleData={scheduleData}
+            selectedName={selectedName}
+            onNameSelect={setSelectedName}
+          />
+        </div>
         <ExpiryTimer expiryTime={expiryTime} />
-      </div>
-
-      {/* Name selector */}
-      <div className="w-full">
-        <NameSelector
-          scheduleData={scheduleData}
-          selectedName={selectedName}
-          onNameSelect={setSelectedName}
-        />
       </div>
 
       {/* Date selector */}
