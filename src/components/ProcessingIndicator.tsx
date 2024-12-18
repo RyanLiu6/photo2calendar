@@ -1,15 +1,15 @@
-import classNames from "classnames";
-import { textStyle } from "@ryanliu6/xi/styles";
+import classNames from 'classnames';
+import { textStyle } from '@ryanliu6/xi/styles';
 
 interface ProcessingIndicatorProps {
-  stage: "uploading" | "processing" | "extracting" | "complete";
+  stage: 'uploading' | 'processing' | 'extracting' | 'complete';
 }
 
 const stages = {
-  uploading: "Uploading image...",
-  processing: "Processing with OCR...",
-  extracting: "Extracting schedule data...",
-  complete: "Complete!"
+  uploading: 'Uploading image...',
+  processing: 'Processing with OCR...',
+  extracting: 'Extracting schedule data...',
+  complete: 'Complete!',
 };
 
 const ProcessingIndicator = ({ stage }: ProcessingIndicatorProps) => {
@@ -20,14 +20,10 @@ const ProcessingIndicator = ({ stage }: ProcessingIndicatorProps) => {
         {Object.entries(stages).map(([key, text]) => (
           <p
             key={key}
-            className={classNames(
-              "text-sm transition-opacity",
-              textStyle,
-              {
-                "opacity-100": stage === key,
-                "opacity-50": stage !== key
-              }
-            )}
+            className={classNames('text-sm transition-opacity', textStyle, {
+              'opacity-100': stage === key,
+              'opacity-50': stage !== key,
+            })}
           >
             {text}
           </p>

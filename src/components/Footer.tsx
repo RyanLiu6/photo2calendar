@@ -1,11 +1,11 @@
-import classNames from "classnames";
+import classNames from 'classnames';
 
-import Socials from "@/components/Socials";
-import { marginalBorder } from "@ryanliu6/xi/styles";
+import Socials from '@/components/Socials';
+import { marginalBorder } from '@ryanliu6/xi/styles';
 
 const Footer = () => {
   const currYear = new Date().getFullYear();
-  const footerClass = classNames(marginalBorder, "flex flex-col items-center justify-center")
+  const footerClass = classNames(marginalBorder, 'flex flex-col items-center justify-center');
 
   return (
     <footer className={footerClass}>
@@ -13,12 +13,10 @@ const Footer = () => {
         <Socials />
       </section>
       <section>
-        <p className="text-sm">
-          &copy; {currYear} Ryan Liu.
-        </p>
+        <p className="text-sm">&copy; {currYear} Ryan Liu.</p>
       </section>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;

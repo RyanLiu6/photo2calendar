@@ -10,15 +10,15 @@ interface ShiftTime {
 }
 
 const SHIFT_PATTERNS: Record<string, ShiftTime> = {
-  "830-5": { start: "08:30", end: "17:00" },
-  "930-6": { start: "09:30", end: "18:00" },
-  "1130-8": { start: "11:30", end: "20:00" },
-  "130-10": { start: "13:30", end: "22:00" },
-  "1030-7": { start: "10:30", end: "19:00" },
-  "10-630": { start: "10:00", end: "18:30" },
-  "9-530": { start: "09:00", end: "17:30" },
-  "330-10": { start: "15:30", end: "22:00" },
-  "830 5": { start: "08:30", end: "17:00" },
+  '830-5': { start: '08:30', end: '17:00' },
+  '930-6': { start: '09:30', end: '18:00' },
+  '1130-8': { start: '11:30', end: '20:00' },
+  '130-10': { start: '13:30', end: '22:00' },
+  '1030-7': { start: '10:30', end: '19:00' },
+  '10-630': { start: '10:00', end: '18:30' },
+  '9-530': { start: '09:00', end: '17:30' },
+  '330-10': { start: '15:30', end: '22:00' },
+  '830 5': { start: '08:30', end: '17:00' },
 };
 
 function normalizeShiftPattern(input: string): string | null {
@@ -40,20 +40,23 @@ function normalizeShiftPattern(input: string): string | null {
 }
 
 export function processScheduleText(text: string): ScheduleEntry[] {
-  console.log("Starting text processing");
-  const lines = text.split('\n').map(line => line.trim()).filter(Boolean);
+  console.log('Starting text processing');
+  const lines = text
+    .split('\n')
+    .map((line) => line.trim())
+    .filter(Boolean);
 
   // First, find the month and year
-  const monthMatch = lines.find(line => /Nov|Dec|Jan/.test(line));
+  const monthMatch = lines.find((line) => /Nov|Dec|Jan/.test(line));
   if (!monthMatch) {
-    throw new Error("Could not find month in schedule");
+    throw new Error('Could not find month in schedule');
   }
 
   // Extract month and year
   const monthRegex = /(Nov|Dec|Jan)/;
   const monthResult = monthMatch.match(monthRegex);
   if (!monthResult?.[1]) {
-    throw new Error("Could not extract month from schedule");
+    throw new Error('Could not extract month from schedule');
   }
 
   const month = monthResult[1];
@@ -61,42 +64,43 @@ export function processScheduleText(text: string): ScheduleEntry[] {
   const monthNum = new Date(`${month} 1, ${year}`).getMonth() + 1;
 
   // Find all lines with day numbers
-  const dayLines = lines.filter(line =>
-    line.match(/\d{1,2}[-]?(Nov|Dec|Jan)/g)
-  );
+  const dayLines = lines.filter((line) => line.match(/\d{1,2}[-]?(Nov|Dec|Jan)/g));
 
   if (dayLines.length === 0) {
-    throw new Error("Could not find days in schedule");
+    throw new Error('Could not find days in schedule');
   }
 
   // Extract all days from all matching lines
   const allDays = new Set<number>();
-  dayLines.forEach(line => {
+  dayLines.forEach((line) => {
     const matches = line.match(/\d{1,2}/g);
     if (matches) {
-      matches.map(Number).forEach(day => allDays.add(day));
+      matches.map(Number).forEach((day) => allDays.add(day));
     }
   });
 
   // Convert to sorted array
   const days = Array.from(allDays).sort((a, b) => a - b);
-  console.log("Found days:", days);
+  console.log('Found days:', days);
 
   // Generate dates
-  const dates = days.map(day =>
-    `${year}-${monthNum.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`
+  const dates = days.map(
+    (day) => `${year}-${monthNum.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`
   );
-  console.log("Generated dates:", dates);
+  console.log('Generated dates:', dates);
 
   const entries: ScheduleEntry[] = [];
 
   // Process each line for shifts
   for (const line of lines) {
     // Skip header lines
-    if (line.includes("Sun") || line.includes("Mon") || line.length < 2) continue;
+    if (line.includes('Sun') || line.includes('Mon') || line.length < 2) continue;
 
     // Split line by vertical bars or tabs and clean up
-    const parts = line.split(/[|\t]/).map(p => p.trim()).filter(Boolean);
+    const parts = line
+      .split(/[|\t]/)
+      .map((p) => p.trim())
+      .filter(Boolean);
 
     // First part should be the name
     const name = parts[0].replace(/[^a-zA-Z\s]/g, '').trim();
@@ -116,16 +120,16 @@ export function processScheduleText(text: string): ScheduleEntry[] {
           entries.push({
             name,
             date: dates[index],
-            shift: `${times.start}-${times.end}`
+            shift: `${times.start}-${times.end}`,
           });
-          console.log("Found shift:", { name, pattern: normalizedPattern, times });
+          console.log('Found shift:', { name, pattern: normalizedPattern, times });
         }
       }
     });
   }
 
   if (entries.length === 0) {
-    throw new Error("No schedule entries could be extracted");
+    throw new Error('No schedule entries could be extracted');
   }
 
   return entries;

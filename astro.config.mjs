@@ -7,6 +7,15 @@ export default defineConfig({
   integrations: [react(), tailwind()],
   output: 'server',
   adapter: cloudflare({
-    mode: 'directory'
-  })
+    mode: 'advanced',
+    runtime: {
+      mode: 'local',
+      type: 'worker',
+      bindings: {
+        DB: {
+          type: 'd1',
+        },
+      },
+    },
+  }),
 });

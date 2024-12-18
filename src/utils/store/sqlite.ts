@@ -1,5 +1,6 @@
 import Database from 'better-sqlite3';
-import { join } from 'path';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
 import type { IScheduleStore, StoreData } from './types';
 
 interface ScheduleRow {
@@ -12,7 +13,8 @@ export class SQLiteStore implements IScheduleStore {
   private db: Database.Database;
 
   private constructor() {
-    this.db = new Database(join(process.cwd(), 'schedules.db'));
+    const __dirname = dirname(fileURLToPath(import.meta.url));
+    this.db = new Database(join(__dirname, '../../../schedules.db'));
     this.init();
   }
 
@@ -34,14 +36,19 @@ export class SQLiteStore implements IScheduleStore {
   }
 
   public async set(id: string, data: StoreData): Promise<void> {
-    this.db.prepare(`
+    this.db
+      .prepare(
+        `
       INSERT OR REPLACE INTO schedules (id, data, expiry)
       VALUES (?, ?, ?)
-    `).run(id, JSON.stringify(data), data.expiry);
+    `
+      )
+      .run(id, JSON.stringify(data), data.expiry);
   }
 
   public async get(id: string): Promise<StoreData | undefined> {
-    const row = this.db.prepare<[string, number], ScheduleRow>('SELECT * FROM schedules WHERE id = ? AND expiry > ?')
+    const row = this.db
+      .prepare<[string, number], ScheduleRow>('SELECT * FROM schedules WHERE id = ? AND expiry > ?')
       .get(id, Date.now());
     return row ? JSON.parse(row.data) : undefined;
   }
@@ -51,7 +58,6 @@ export class SQLiteStore implements IScheduleStore {
   }
 
   public async cleanup(): Promise<void> {
-    this.db.prepare('DELETE FROM schedules WHERE expiry < ?')
-      .run(Date.now());
+    this.db.prepare('DELETE FROM schedules WHERE expiry < ?').run(Date.now());
   }
 }

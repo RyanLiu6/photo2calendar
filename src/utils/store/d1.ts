@@ -7,11 +7,25 @@ export class D1Store implements IScheduleStore {
 
   private constructor(db: D1Database) {
     this.db = db;
+    this.init();
   }
 
-  public static getInstance(db: D1Database): D1Store {
+  private async init() {
+    await this.db
+      .prepare(`
+        CREATE TABLE IF NOT EXISTS schedules (
+          id TEXT PRIMARY KEY,
+          data TEXT NOT NULL,
+          expiry INTEGER NOT NULL
+        )
+      `)
+      .run();
+  }
+
+  public static async getInstance(db: D1Database): Promise<D1Store> {
     if (!D1Store.instance) {
       D1Store.instance = new D1Store(db);
+      await D1Store.instance.init();
     }
     return D1Store.instance;
   }
@@ -33,16 +47,10 @@ export class D1Store implements IScheduleStore {
   }
 
   public async delete(id: string): Promise<void> {
-    await this.db
-      .prepare('DELETE FROM schedules WHERE id = ?')
-      .bind(id)
-      .run();
+    await this.db.prepare('DELETE FROM schedules WHERE id = ?').bind(id).run();
   }
 
   public async cleanup(): Promise<void> {
-    await this.db
-      .prepare('DELETE FROM schedules WHERE expiry < ?')
-      .bind(Date.now())
-      .run();
+    await this.db.prepare('DELETE FROM schedules WHERE expiry < ?').bind(Date.now()).run();
   }
 }

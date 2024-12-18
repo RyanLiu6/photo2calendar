@@ -1,5 +1,5 @@
-import { textStyle } from "@ryanliu6/xi/styles";
-import { Button } from "@/components/Button";
+import { textStyle } from '@ryanliu6/xi/styles';
+import { Button } from '@/components/Button';
 
 interface ErrorPopupProps {
   message: string;
@@ -14,12 +14,8 @@ const ErrorPopup = ({ message, onClose }: ErrorPopupProps) => {
           <h3 className="text-lg font-semibold">Error Processing Schedule</h3>
           <p className={`${textStyle} whitespace-pre-wrap`}>{message}</p>
           <div className="flex justify-between gap-4">
-            <Button onClick={() => window.location.href = "/"}>
-              Upload New Image
-            </Button>
-            <Button onClick={onClose}>
-              Close
-            </Button>
+            <Button onClick={() => (window.location.href = '/')}>Upload New Image</Button>
+            <Button onClick={onClose}>Close</Button>
           </div>
         </div>
       </div>

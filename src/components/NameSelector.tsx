@@ -1,5 +1,5 @@
 import { type ScheduleEntry } from '@/utils/processSchedule';
-import { textStyle } from "@ryanliu6/xi/styles";
+import { textStyle } from '@ryanliu6/xi/styles';
 
 interface NameSelectorProps {
   scheduleData: ScheduleEntry[];
@@ -9,11 +9,13 @@ interface NameSelectorProps {
 
 const NameSelector = ({ scheduleData, selectedName, onNameSelect }: NameSelectorProps) => {
   // Get unique names from schedule
-  const names = [...new Set(scheduleData.map(entry => entry.name))].sort();
+  const names = [...new Set(scheduleData.map((entry) => entry.name))].sort();
 
   return (
     <div className="flex flex-col gap-2">
-      <label htmlFor="name-select" className={textStyle}>Select your name:</label>
+      <label htmlFor="name-select" className={textStyle}>
+        Select your name:
+      </label>
       <select
         id="name-select"
         value={selectedName || ''}
@@ -21,8 +23,10 @@ const NameSelector = ({ scheduleData, selectedName, onNameSelect }: NameSelector
         className="p-2 rounded-lg bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600"
       >
         <option value="">All Names</option>
-        {names.map(name => (
-          <option key={name} value={name}>{name}</option>
+        {names.map((name) => (
+          <option key={name} value={name}>
+            {name}
+          </option>
         ))}
       </select>
     </div>

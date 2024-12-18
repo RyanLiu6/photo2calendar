@@ -1,4 +1,4 @@
-import { textStyle } from "@ryanliu6/xi/styles";
+import { textStyle } from '@ryanliu6/xi/styles';
 
 interface ExpiryTimerProps {
   expiryTime: number;
@@ -11,17 +11,15 @@ const ExpiryTimer = ({ expiryTime }: ExpiryTimerProps) => {
   const formattedTime = `Expires on ${expiryDate.toLocaleDateString(undefined, {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
   })} at ${expiryDate.toLocaleTimeString(undefined, {
     hour: 'numeric',
     minute: '2-digit',
-    hour12: true
+    hour12: true,
   })} (Your Time)`;
 
   return (
-    <div className={`${textStyle} text-sm text-slate-500 dark:text-slate-400`}>
-      {formattedTime}
-    </div>
+    <div className={`${textStyle} text-sm text-slate-500 dark:text-slate-400`}>{formattedTime}</div>
   );
 };
 

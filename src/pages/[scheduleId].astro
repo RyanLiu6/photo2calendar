@@ -1,21 +1,21 @@
 ---
-import ScheduleLayout from "@/layouts/ScheduleLayout.astro";
-import ScheduleDisplay from "@/components/ScheduleDisplay";
-import ErrorBoundary from "@/components/ErrorBoundary";
+import ScheduleLayout from '@/layouts/ScheduleLayout.astro';
+import ScheduleDisplay from '@/components/ScheduleDisplay';
+import ErrorBoundary from '@/components/ErrorBoundary';
 import { getStore } from '@/utils/store/index';
 
 const { scheduleId } = Astro.params;
 
 if (!scheduleId) {
-  return Astro.redirect("/404");
+  return Astro.redirect('/404');
 }
 
-const store = getStore(Astro.locals.runtime.env.DB);
+const store = await getStore(Astro.locals.runtime.env.DB);
 const schedule = await store.get(scheduleId);
-console.log("Retrieved schedule:", scheduleId, schedule ? "found" : "not found");
+console.log('Retrieved schedule:', scheduleId, schedule ? 'found' : 'not found');
 
 if (!schedule) {
-  return Astro.redirect("/404");
+  return Astro.redirect('/404');
 }
 ---
 

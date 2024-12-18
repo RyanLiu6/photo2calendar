@@ -1,5 +1,5 @@
 ---
-import BaseLayout from "@/layouts/BaseLayout.astro";
+import BaseLayout from '@/layouts/BaseLayout.astro';
 
 interface Props {
   title?: string;
@@ -8,6 +8,7 @@ interface Props {
 
 const { title, scheduleId } = Astro.props;
 ---
+
 <BaseLayout title={title}>
   <section class="flex flex-col justify-center items-center pb-8">
     <h1 class="font-bold text-3xl pb-4">Your Schedule</h1>

@@ -29,5 +29,8 @@ schedules.db
 schedules.db-journal
 schedules.db*
 
+# wrangler local development
+.wrangler/
+
 # OCR results
 ocr-results/

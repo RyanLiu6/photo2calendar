@@ -1,8 +1,6 @@
-import { type ReactNode } from "react";
-import classNames from "classnames";
-import { textStyle } from "@ryanliu6/xi/styles";
-import { Button } from "@/components/Button";
-import DataPrivacyNotice from "./DataPrivacyNotice";
+import classNames from 'classnames';
+import { Button } from '@/components/Button';
+import DataPrivacyNotice from './DataPrivacyNotice';
 
 interface ImagePreviewProps {
   imageUrl: string;
@@ -20,20 +18,17 @@ const ImagePreview = ({ imageUrl, onCancel, onConfirm, isLoading }: ImagePreview
           src={imageUrl}
           alt="Schedule Preview"
           className={classNames(
-            "max-h-96 object-contain rounded-lg",
-            "bg-white dark:bg-slate-700",
-            "shadow-md"
+            'max-h-96 object-contain rounded-lg',
+            'bg-white dark:bg-slate-700',
+            'shadow-md'
           )}
         />
         <div className="flex justify-end gap-2">
           <Button onClick={onCancel} disabled={isLoading}>
             Cancel
           </Button>
-          <Button
-            onClick={onConfirm}
-            disabled={isLoading}
-          >
-            {isLoading ? "Processing..." : "Confirm"}
+          <Button onClick={onConfirm} disabled={isLoading}>
+            {isLoading ? 'Processing...' : 'Confirm'}
           </Button>
         </div>
       </div>

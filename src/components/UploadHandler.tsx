@@ -4,36 +4,36 @@ import ImageUpload from './ImageUpload';
 const UploadHandler = () => {
   const handleUpload = async (file: File, setStage: (stage: Stage) => void) => {
     try {
-      console.log("Creating form data...");
+      console.log('Creating form data...');
       const formData = new FormData();
-      formData.append("schedule", file);
+      formData.append('schedule', file);
 
-      setStage("uploading");
-      console.log("Sending request to server...");
-      const response = await fetch("/api/process-schedule", {
-        method: "POST",
+      setStage('uploading');
+      console.log('Sending request to server...');
+      const response = await fetch('/api/process-schedule', {
+        method: 'POST',
         body: formData,
       });
 
-      setStage("processing");
+      setStage('processing');
       const data = await response.json();
 
       if (!response.ok) {
-        console.error("Server error:", data);
-        throw new Error(data.error || "Failed to process schedule");
+        console.error('Server error:', data);
+        throw new Error(data.error || 'Failed to process schedule');
       }
 
-      console.log("Processing complete, got scheduleId:", data.scheduleId);
-      setStage("extracting");
+      console.log('Processing complete, got scheduleId:', data.scheduleId);
+      setStage('extracting');
 
-      setStage("complete");
+      setStage('complete');
       // Small delay to show completion state
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await new Promise((resolve) => setTimeout(resolve, 500));
 
       window.location.href = `/${data.scheduleId}`;
     } catch (error) {
-      console.error("Upload error:", error);
-      throw error instanceof Error ? error : new Error("Failed to process schedule");
+      console.error('Upload error:', error);
+      throw error instanceof Error ? error : new Error('Failed to process schedule');
     }
   };
 

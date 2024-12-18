@@ -5,11 +5,11 @@ export async function downloadSchedule(scheduleId: string, name: string | null):
   const response = await fetch(`/api/download-ics/${scheduleId}?${params}`);
   if (!response.ok) {
     const error = await response.text();
-    throw new Error(error || "Failed to download schedule");
+    throw new Error(error || 'Failed to download schedule');
   }
   const blob = await response.blob();
   const url = window.URL.createObjectURL(blob);
-  const a = document.createElement("a");
+  const a = document.createElement('a');
   a.href = url;
   a.download = `schedule-${name || 'all'}-${scheduleId}.ics`;
   a.click();
